@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cara Pembuatan Mie Ayam</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Gaya untuk tombol pesan oval dan modal */
+        .order-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .order-section button {
+            background-color: #25D366;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .order-section button:hover {
+            background-color: #1DA855;
+        }
+
+        /* Modal styling */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-content input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .modal-content button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .modal-content button:hover {
+            background-color: #1DA855;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tata Cara Pembuatan Mie Ayam</h1>
+    </header>
+    <nav>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+        <a href="https://www.bola.net/" target="_blank">Bola</a>
+        <a href="https://food.detik.com/" target="_blank">DetikFood</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </nav>
+    <div class="container">
+        <div class="intro">
+            <h2>Pengenalan Mie Ayam</h2>
+            <p>Mie ayam disajikan dengan bumbu dan racikan yang berbeda-beda di setiap tempat. Jadi, bila ingin
+                membuatnya sendiri, kamu juga bisa berkreasi dan mengikuti resep yang paling sesuai dengan selera.</p>
+            <p>Resep mie ayam sederhana ala rumahan yang enak dan lezat bisa kamu praktikkan. Kamu tinggal melengkapi
+                bahan-bahan yang diperlukan, lalu ikuti langkah-langkah pembuatannya. Bahannya tidak sulit didapat dan
+                racikan bumbunya juga sangat sederhana.</p>
+        </div>
+
+        <hr>
+
+        <h2>Bahan-bahan:</h2>
+        <div class="ingredients">
+            <div class="ingredient-column">
+                <h3>Bahan 1-7:</h3>
+                <ul>
+                    <li>Mi basah atau mie telur 500 g</li>
+                    <li>Daging ayam 300 g</li>
+                    <li>Minyak ayam 500 ml</li>
+                    <li>Bawang putih 4 siung</li>
+                    <li>Bawang merah 4 buah</li>
+                    <li>Ketumbar 1 sdt</li>
+                    <li>Kunyit seruas jari</li>
+                </ul>
+            </div>
+            <div class="ingredient-column">
+                <h3>Bahan 8-13:</h3>
+                <ul>
+                    <li>Kemiri 4 butir</li>
+                    <li>Jahe 1 ruas</li>
+                    <li>Air rebusan daging ayam 2 L</li>
+                    <li>Lada bubuk 1 sdt</li>
+                    <li>Garam 1 sdt</li>
+                    <li>Tulang ayam secukupnya</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Cara Membuat Mie Ayam Ala Rumahan</h3>
+        <div class="steps">
+            <div class="step-column">
+                <h3>Langkah 1-6:</h3>
+                <p>1. Buat kuah kaldu mi ayam terlebih dahulu, yaitu dengan merebus lagi air rebusan daging ayam,
+                    ditambahkan
+                    dengan lada bubuk, garam, dan tulang ayam secukupnya.</p>
+                <p>2. Buat topping ayam.</p>
+                <p>3. Ayam yang telah direbus kemudian dipotong kecil-kecil atau potong halus.</p>
+                <p>4. Haluskan bumbu yang terdiri dari bawang putih, bawang merah, ketumbar, kunyit, kemiri, dan jahe.
+                </p>
+                <p>5. Tumis ayam dengan bumbu yang telah dihaluskan.</p>
+                <p>6. Tambahkan garam dan penyedap rasa secukupnya.</p>
+            </div>
+            <div class="step-column">
+                <h3>Langkah 7-13:</h3>
+                <p>7. Setelah kuah mi ayam dan topping ayam siap, rebus mie yang sudah disiapkan.</p>
+                <p>8. Saat merebus mi, siapkan mangkuk.</p>
+                <p>9. Kemudian tambahkan 1 sdm minyak ayam dan 1 sdt merica.</p>
+                <p>10. Masukkan mi yang telah matang ke dalam mangkuk.</p>
+                <p>11. Kemudian aduk mi hingga tercampur sempurna dengan minyak ayam.</p>
+                <p>12. Tambahkan topping ayam dan kuah ayam.</p>
+                <p>13. Mi ayam siap disantap.</p>
+            </div>
+        </div>
+
+        <div class="video-section">
+            <h3>Video Tata Cara Pembuatan Mie Ayam</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_L8pmcvQCto"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="order-section">
+            <button id="openModalButton">Pesan via WhatsApp</button>
+        </div>
+
+        <div class="modal" id="orderModal">
+            <div class="modal-content">
+                <button class="modal-close" id="closeModalButton">&times;</button>
+                <h3>Isi Detail Pesanan Anda</h3>
+                <input type="text" id="customerName" placeholder="Nama Anda" required>
+                <input type="tel" id="customerPhone" placeholder="Nomor Telepon Anda" required>
+                <input type="text" id="orderMessage" placeholder="Pesan Anda" required>
+                <button id="sendOrderButton">Kirim</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const openModalButton = document.getElementById('openModalButton');
+        const closeModalButton = document.getElementById('closeModalButton');
+        const orderModal = document.getElementById('orderModal');
+        const sendOrderButton = document.getElementById('sendOrderButton');
+
+        openModalButton.addEventListener('click', () => {
+            orderModal.style.display = 'flex';
+        });
+
+        closeModalButton.addEventListener('click', () => {
+            orderModal.style.display = 'none';
+        });
+
+        sendOrderButton.addEventListener('click', () => {
+            const whatsappNumber = "6289529058558"; // Nomor WhatsApp Anda
+            const customerName = document.getElementById('customerName').value;
+            const customerPhone = document.getElementById('customerPhone').value;
+            const orderMessage = document.getElementById('orderMessage').value;
+
+            if (!customerName || !customerPhone || !orderMessage) {
+                alert('Harap isi semua kolom sebelum melanjutkan!');
+                return;
+            }
+
+            const message = `Halo, saya ${customerName} (Nomor: ${customerPhone}) ingin memesan: ${orderMessage}`;
+            const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+            orderModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === orderModal) {
+                orderModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
