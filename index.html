@@ -181,7 +181,7 @@
                 <button class="modal-close" id="closeModalButton">&times;</button>
                 <h3>Isi Detail Pesanan Anda</h3>
                 <input type="text" id="customerName" placeholder="Nama Anda" required>
-
+                <input type="tel" id="customerPhone" placeholder="Nomor Telepon Anda" required>
                 <input type="text" id="orderMessage" placeholder="Pesan Anda" required>
                 <button id="sendOrderButton">Kirim</button>
             </div>
@@ -205,7 +205,7 @@
         sendOrderButton.addEventListener('click', () => {
             const whatsappNumber = "6289529058558"; // Nomor WhatsApp Anda
             const customerName = document.getElementById('customerName').value;
-
+            const customerPhone = document.getElementById('customerPhone').value;
             const orderMessage = document.getElementById('orderMessage').value;
 
             if (!customerName || !customerPhone || !orderMessage) {
